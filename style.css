@@ -1,28 +1,76 @@
-nav {
-    border-radius: 100px;
-    background-color: hsl(333, 92%, 39%);
-    display: flex;
-    justify-content: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 
-ul {
-    list-style-type: none;
-    margin: 1;
+* {
+    margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
-li {
-    display: inline-block;
-    margin: 0 100px;
+/*Navigation Lists*/
+#navbar {
+    background-color: #573818;
 }
 
-a {
-    color: rgb(236, 43, 226);
-    font-size: 20px;
+#logo {
+    font-size: 1.7em;
+    color: rgb(255, 255, 255);
     font-weight: bold;
+    text-shadow: 5px 5px 5px black;
+    margin-left: 5px;
+    transition: 0.5s ease;
 }
 
-li:hover {
-    background-color: rgb(243, 10, 45);
-    transform: scale(1.5);
+#navlink,
+#navbardrop {
+    font-size: 0.9em;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-shadow: 5px 5px 5px black;
+    margin-left: 5px;
+    transition: 0.5s ease;
+}
+
+nav>ul>li a:link,
+nav>ul>li a:visited {
+    color: white;
+    text-decoration: none;
+    background-color: #573818;
+}
+
+nav>ul>li a:hover,
+nav>ul>li a:active {
+    color: white;
+    background-color: hsla(0, 0%, 42%, 0.7);
+}
+
+.dropdown-menu .dropdown-item {
+    color: black;
+    background-color: hsla(0, 0%, 100%, 0.2);
+    box-shadow: 5px 0px 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+.icons {
+    position: absolute;
+    right: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.icons a{
+    color: white;
+    margin: 10px;
+    text-shadow: 5px 5px 5px black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.icons a:hover {
+    color: white;
+    background-color: hsla(30, 5%, 64%, 0.7);
+    transform: translateY(-5px);
+}
+
+@media screen and (max-width:330px) {
+    #logo {
+        font-size: 15px;
+    }
 }
