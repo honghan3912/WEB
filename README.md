@@ -11,5 +11,5 @@ A bakery website made by a group of first year degree students for their year 1 
  - Eugene
   [Eugenetyx](https://github.com/Eugenetyx)
  - Joash
-  
+  [Habiib1](https://github.com/Habiib1)
  
