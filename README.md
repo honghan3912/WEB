@@ -5,7 +5,7 @@ A bakery website made by a group of first year degree students for their year 1 
 - Hong Han
   [honghan3912](https://github.com/honghan3912)
  - Jason
-  [HackerDoggo101](https://github.com/HackerDoggo1)
+  [HackerDoggo101](https://github.com/HackerDoggo101)
  - Yee En
  
  - Eugene
