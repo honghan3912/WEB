@@ -9,7 +9,7 @@ A bakery website made by a group of first year degree students for their year 1 
  - Yee En
   [Yeeen0822](https://github.com/Yeeen0822)
  - Eugene
- 
+  [Eugenetyx](https://github.com/Eugenetyx)
  - Joash
   
  
